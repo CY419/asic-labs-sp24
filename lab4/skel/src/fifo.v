@@ -2,8 +2,9 @@
 // FIFO Template
 //-------------------------------------------------------------------------
 //
-//`include "EECS151.v"
-
+//`include "gcd_control.v"
+//`include "gcd_datapath.v"
+`include "EECS151.v"
 module fifo #(parameter WIDTH = 8, parameter LOGDEPTH = 3) (
     input clk,
     input reset,
